@@ -1,6 +1,8 @@
 module bou.ke/whoamits
 
-go 1.21.4
+go 1.21.3
+
+require tailscale.com v1.56.1
 
 require (
 	filippo.io/edwards25519 v1.0.0 // indirect
@@ -25,5 +27,4 @@ require (
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
-	tailscale.com v1.56.1 // indirect
 )
